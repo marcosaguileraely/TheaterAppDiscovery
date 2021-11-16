@@ -34,8 +34,8 @@ Your app is ready to be deployed!
 **Project key notes:**
 This GITHUB project link (https://github.com/marcosaguileraely/TheaterAppDiscovery) works as a base code.
 
-Also, you can see a image here:
-<a href="https://ibb.co/HHCDYpP"><img src="https://i.ibb.co/2kS7PYM/Screen-Shot-2021-11-16-at-1-47-08-AM.png" alt="Screen-Shot-2021-11-16-at-1-47-08-AM" border="0"></a>
+Also, you can see a live demo here: https://theater-app-discovery.vercel.app/
+<a href="https://theater-app-discovery.vercel.app/" target="_blank"><img src="https://i.ibb.co/2kS7PYM/Screen-Shot-2021-11-16-at-1-47-08-AM.png" alt="Screen-Shot-2021-11-16-at-1-47-08-AM" border="0"></a>
 
 **This project uses:** 
  -Axios (^0.24.0) - For HTTP requests
