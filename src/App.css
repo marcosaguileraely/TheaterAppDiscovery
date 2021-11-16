@@ -1,10 +1,42 @@
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: menu;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header header header header header' 'menu main main main main' 'footer footer footer footer footer';
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container>div {
+  background-color: #fafbfb;
+  text-align: center;
+  padding: 20px 5px;
+  font-size: 16px;
+
+}
+
 .container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 800px;
-  height: 85vh;
-  width: 85vw;
+  /* max-height: 800px; */
+  /* height: 185vh; */
+  /* width: 85vw; */
   margin: auto;
 }
 
@@ -17,7 +49,6 @@
   text-align: center;
   width: 23%;
   height: 180px;
-  /* border: solid 2px #3d3d3d; */
   justify-items: center;
   margin: 10px;
   padding: 3px;
@@ -25,7 +56,7 @@
   box-shadow: -5px 5px 13px 5px rgb(18 18 18 / 20%)
 }
 
-span{
+span {
   color: whitesmoke;
 }
 
@@ -52,4 +83,18 @@ input[type="radio"]::before {
 input[type="radio"]:hover::before {
   font-size: 1.5rem;
   content: '⭐'
+}
+
+input#searchInput {
+  height: 35px;
+  width: 175px;
+  border-radius: 3px;
+  padding: 0px 0px 0px 10px;
+  margin: 0px 5px;
+}
+
+button {
+  height: 35px;
+  border-radius: 3px;
+  margin: 0px 2px;
 }
