@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+
 import './style.css';
 
 const net = require('./Utils/net');
@@ -116,7 +118,13 @@ export default function App() {
                 {movies.map(movie => {
                   return <div key={movie.id} className="box" style={{ backgroundImage: `url('https://image.tmdb.org/t/p/w780/${movie.backdrop_path}')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                     <span className="movie-title">{`${movie.original_title}`}</span>
-                    <span>{`${movie.release_date}`}</span>
+
+                    <Link
+                      to={`/detail/${movie.id}`}
+                      state={{ data: movie }} >
+                      <span id="link">About movie</span>
+                    </Link>
+
                   </div>
                 })}
               </div>
@@ -125,7 +133,7 @@ export default function App() {
 
         </div>
         <div className="item4">
-          Developed by @marcode_ely
+          Developed by <a href="https://github.com/marcosaguileraely" target="_blank">https://github.com/marcosaguileraely</a>
         </div>
       </div>
     </div>

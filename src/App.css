@@ -16,7 +16,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'header header header header header' 'menu main main main main' 'footer footer footer footer footer';
+  grid-template-areas: 
+    'header header header header header' 
+    'menu main main main main' 
+    'footer footer footer footer footer';
   grid-gap: 10px;
   /* background-color: #2196F3; */
   padding: 10px;
@@ -97,4 +100,18 @@ button {
   height: 35px;
   border-radius: 3px;
   margin: 0px 2px;
+}
+
+#link {
+  background: #1a245a;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#link:hover {
+  background: #ffb514;
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
 }
