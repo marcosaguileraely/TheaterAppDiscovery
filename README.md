@@ -44,6 +44,6 @@ Also, you can see a live demo here: https://theater-app-discovery.vercel.app/
 
 
 **This project uses:** 
- -Axios (^0.24.0) - For HTTP requests
- -React (16.8.1) - For web app development
- -React-Router-Dom (6.x.x) - For browser navigation and history (Go back, Go forward)
+ - Axios (^0.24.0) - For HTTP requests
+ - React (16.8.1) - For web app development
+ - React-Router-Dom (6.x.x) - For browser navigation and history (Go back, Go forward)
