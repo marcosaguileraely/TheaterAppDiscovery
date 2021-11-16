@@ -34,8 +34,8 @@ Your app is ready to be deployed!
 **Project key notes:**
 This GITHUB project link (https://github.com/marcosaguileraely/TheaterAppDiscovery) works as a base code.
 
-Also, you can see live action sample by entering in following Heroku deployed.
-
+Also, you can see a image here:
+<a href="https://ibb.co/HHCDYpP"><img src="https://i.ibb.co/2kS7PYM/Screen-Shot-2021-11-16-at-1-47-08-AM.png" alt="Screen-Shot-2021-11-16-at-1-47-08-AM" border="0"></a>
 
 **This project uses:** 
  -Axios (^0.24.0) - For HTTP requests
