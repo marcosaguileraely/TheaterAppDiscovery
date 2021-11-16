@@ -35,8 +35,15 @@ Your app is ready to be deployed!
 This GITHUB project link (https://github.com/marcosaguileraely/TheaterAppDiscovery) works as a base code.
 
 Also, you can see a live demo here: https://theater-app-discovery.vercel.app/
-<a href="https://theater-app-discovery.vercel.app/" target="_blank"><img src="https://i.ibb.co/2kS7PYM/Screen-Shot-2021-11-16-at-1-47-08-AM.png" alt="Screen-Shot-2021-11-16-at-1-47-08-AM" border="0"></a>
+**Project key notes:**
+This GITHUB project link (https://github.com/marcosaguileraely/TheaterAppDiscovery) works as a base code.
+
+Also, you can see a live demo here: https://theater-app-discovery.vercel.app/
+<a href="https://theater-app-discovery.vercel.app/" target="_blank"><img src="https://i.ibb.co/G7fL0hd/Screen-Shot-2021-11-16-at-6-31-07-PM.png" alt="Screen-Shot-2021-11-16-at-6-31-07-PM" border="0"></a>
+<a href="https://theater-app-discovery.vercel.app/" target="_blank"><img src="https://i.ibb.co/ChJ8vhB/Screen-Shot-2021-11-16-at-6-30-46-PM.png" alt="Screen-Shot-2021-11-16-at-6-30-46-PM" border="0"></a>
+
 
 **This project uses:** 
  -Axios (^0.24.0) - For HTTP requests
  -React (16.8.1) - For web app development
+ -React-Router-Dom (6.x.x) - For browser navigation and history (Go back, Go forward)
